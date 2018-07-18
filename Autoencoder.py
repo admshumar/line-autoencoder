@@ -1,9 +1,3 @@
-
-# coding: utf-8
-
-# In[25]:
-
-
 ########
 #IMPORTS
 ########
@@ -21,10 +15,6 @@ import imageio
 import matplotlib.pyplot as plt
 
 import Rectangle
-
-
-# In[26]:
-
 
 ###########
 #PARAMETERS
@@ -46,10 +36,6 @@ sample_number = int(len(angle_list))
 #Neural network parameters
 epoch = 50
 layer_1 = width*height
-
-
-# In[27]:
-
 
 ########
 #SAMPLES
@@ -75,10 +61,6 @@ def makeTensor(rectangleList):
 
 #Samples comprise a torch tensor derived from a list of disks.
 samples = makeTensor(rectangleList)
-
-
-# In[28]:
-
 
 ############
 #AUTOENCODER
@@ -161,10 +143,6 @@ print("Best iteration:", best_iteration)
 print("Best loss:", best_loss)    
 
 #TO DO: interpret the action of the autoencoder on your dataset.
-
-
-# In[32]:
-
 
 ##############
 #VISUALIZATION
