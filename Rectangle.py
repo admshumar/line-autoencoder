@@ -1,9 +1,3 @@
-
-# coding: utf-8
-
-# In[30]:
-
-
 #Imports
 import torch
 import math
