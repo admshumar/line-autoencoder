@@ -140,9 +140,7 @@ for j in range (0, epoch):
     #print(param)
 
 print("Best iteration:", best_iteration)
-print("Best loss:", best_loss)    
-
-#TO DO: interpret the action of the autoencoder on your dataset.
+print("Best loss:", best_loss)
 
 ##############
 #VISUALIZATION
