@@ -159,7 +159,7 @@ def getGrid(tensor, rows):
     grid = grid.astype("uint8")
     return grid
 
-# Plot the image here using Matplotlib.
+# Plot an image using Matplotlib.
 def plotSingleImage(tensor):
     if tensor.requires_grad == True:
         tensor = tensor.detach()
